@@ -1,0 +1,49 @@
+.card {
+    height: 25rem;
+    width: 15rem;
+    background-color: white;
+    /* box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    position: relative;
+    transform: translateX(90%);
+}
+
+.feature-box {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.feature-box svg {
+    font-size: 1.5rem;
+}
+
+.title {
+    background-image: linear-gradient(
+        to right top,
+        #d16ba5,
+        #c777b9,
+        #ba83ca,
+        #aa8fd8,
+        #9a9ae1,
+        #8aa7ec,
+        #79b3f4,
+        #69bff8,
+        #52cffe,
+        #41dfff,
+        #46eefa,
+        #5ffbf1
+    );
+    border-radius: 10px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h3 {
+    color: white;
+}
